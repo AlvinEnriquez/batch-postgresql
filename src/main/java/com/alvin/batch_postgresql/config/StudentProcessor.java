@@ -12,6 +12,7 @@ public class StudentProcessor implements ItemProcessor<Student, Student> {
 		// ok
 		// feature branch 0921202401
 		// feature branch conflict 0921202401
+		// master change
 		student.setId(null);
 		return student;
 	}
